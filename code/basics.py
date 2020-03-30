@@ -9,6 +9,7 @@
 print("Hello, World!")
 print("Hello:",5)
 print("Hello: {}".format(5))
+print("Hello: {0:.2f}, {1:.2f},{2:.3f}".format(5.5648,5.5658,5.5698)) #5.56, 5.57, 5.570
 
 x = 5
 print(type(x)) #int //unlimited length.
@@ -47,7 +48,7 @@ firstProgram("Good morning")
 
 import random
 
-print(random.randrange(1,10))
+print("random no: ",random.randrange(1,10))
 
 #python variable names are case-sensitive
 #Variables that are created outside of a function are known as global variables.
@@ -70,3 +71,6 @@ This is a comment
 written in
 more than just one line
 '''
+
+s='''This is a 
+multiline string'''
