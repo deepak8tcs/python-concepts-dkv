@@ -158,7 +158,7 @@ thisdict = {
 print(thisdict)
 
 x = thisdict["model"] #access value of given key. or
-x = thisdict.get("model")
+x = thisdict.get("model") #2nd way to get value of given key
 thisdict["year"] = 2018 #change value
 thisdict["color"] = "red" #add new item
 thisdict.pop("color") #remove

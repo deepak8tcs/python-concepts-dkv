@@ -53,6 +53,8 @@ print("current year: ",dt.strftime("%Y")) #2020
 print("current year: ",dt.strftime("%y")) #20
 print("current year: ",dt.strftime("%d-%m-%Y:%H-%M-%S %p")) #dd-mm-yyyy: 10-04-2020:22-38-25 PM
 
+#os.path.abspath(os.curdir) //actually should be for curr directory path
+#os.path.abspath(os.pardir) //parent directory path
 f = open(os.path.abspath(os.curdir)+"\\code\\test-data\\appenddemofile.txt", "a")
 f.write(" Now the file has more content!: "+ str(datetime.datetime.now()))
 f.close()

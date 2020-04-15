@@ -170,3 +170,24 @@ for x in [0, 1, 2]:
 
 # for loops cannot be empty, but if you for some reason have a for loop with no content, 
 # put in the pass statement to avoid getting an error.
+
+# Lists, tuples, dictionaries, strings and sets are all iterable objects.
+# All these objects have a iter() method which is used to get an iterator:
+
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+# Global Scope
+# A variable created in the main body of the Python code is a global variable
+#  and belongs to the global scope.
+def myfunc():
+  global x #to define a global variable inside local scope we use global keyword
+  x = 300
+
+myfunc()
+
+print(x)
