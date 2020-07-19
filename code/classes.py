@@ -16,6 +16,8 @@ print(p1.x)
 # It does not have to be named self , you can call it whatever you like,
 #  but it has to be the first parameter of any function in the class:
 
+# init is like constructor in Java which is used to initialize
+#class variables. And self is like Java this operator.
 class Person:
   def __init__(self, name, age):
     self.name = name
