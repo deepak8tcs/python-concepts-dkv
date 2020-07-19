@@ -39,9 +39,13 @@ $py
 ## pip: pip is a reference to python package manager,comes bundled with python
 
 pip install requests                #latest version
+
 pip install requests==2.18.4        #sepecific version
+
 pip install requests>=2.0.0,<3.0.0  #latest 2.x release of requests:
+
 pip install --upgrade requests      #uninstall old version and installs latest version
+
 pip install -r requirements.txt     #we use -r flag here
 
 ## Instead of installing packages individually, pip allows you to declare all dependencies in a Requirements File.
@@ -53,8 +57,11 @@ google-auth==1.1.0
 pip freeze
 
 Which will output a list of package specifiers such as:
+
 cachetools==2.0.1
+
 certifi==2017.7.27.1
+
 chardet==3.0.4
 
 This is useful for creating Requirements Files that can re-create the exact versions of 
