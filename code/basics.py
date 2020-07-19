@@ -1,8 +1,13 @@
+#Python is an interpreted, high-level, general-purpose programming language.
+#It is is dynamically typed and garbage-collected.
 
-# Python is an interpreted programming language.
 # Python relies on indentation, using whitespace, to define scope;
 # such as the scope of loops, functions and classes.
 # Other programming languages often use curly-brackets for this purpose.
+
+#For the most part, Python is an interpreted language and not a compiled one, 
+#although compilation is a step. Python code, written in .py file is first compiled
+#to what is called bytecode which is stored with a .pyc or .pyo format.
 
 # comments,variables,datatypes,tyepcasting
 
