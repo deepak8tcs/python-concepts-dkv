@@ -112,6 +112,7 @@ print(type(thistuple)) #str
 thistuple = tuple(("apple", "banana", "cherry")) # tuple using tuple() constructor, note the double round-brackets
 
 #********************************************************SET**************************************************
+
 #*******************************************************SET**************************************************
 #Set: A set is a collection which is unordered and unindexed.
 #You cannot access items in a set by referring to an index, since sets are unordered the items has no index.
@@ -147,7 +148,12 @@ set3 = set1.union(set2) #The union() method returns a new set with all items fro
 #result = x.intersection(y, z) #common of 3 sets
 
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
-
+#*†****
+# declare empty collections:
+# mylist = [] or mylist = list()
+# mytuple = () or mytuple = tuple()
+# myset = set()  // here {} becomes dictionary.
+# mydict = {}  or mydict = dict()
 
 #*****************************************DICTIONARY****************************
 thisdict = {
