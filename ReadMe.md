@@ -66,3 +66,8 @@ chardet==3.0.4
 
 This is useful for creating Requirements Files that can re-create the exact versions of 
 all packages installed in an environment.
+
+## Notes:
+we can use IDLE shell as well to type and run python code.
+we can use either single quotes or double quotes for string.
+
